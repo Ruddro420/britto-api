@@ -81,7 +81,7 @@ class Course extends Controller
         $data->save();
         return response()->json([
             'message' => 'Created successfully',
-            'data' => $data 
+            'data' => $data
         ]);
     }
 
